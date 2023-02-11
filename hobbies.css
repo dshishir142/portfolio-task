@@ -1,0 +1,110 @@
+.first{
+    font-size:35px;
+    border: 3px solid ;
+    padding: 2px;
+    display: inline;
+    position: relative;
+    top:5px;
+    position:relative;
+    top:10px;
+    left:600px;
+    background-color: white;
+    border-radius: 8px;
+}
+img{
+    height:200px;
+    width:auto;
+    border-radius: 20px;
+}
+.sk{
+    font-size:30px;
+    text-align: center;
+}
+.firstflex{
+    border:2px solid;
+    border-color: rgb(0, 0, 0);
+    height:510px;
+    width:250px;
+    position: relative;
+    top:30px;
+    border-radius: 40px;
+    background-color: white;
+}
+.flesx{
+    display: flex;
+    justify-content:space-around;
+}
+.img3{
+    position: relative;
+    left:40px;
+    border: 2px solid;
+}
+.img2{
+    position: relative;
+    left:10px;
+    border: 2px solid;
+}
+.img1{
+    position: relative;
+    left:9px;
+    border: 2px solid;
+}
+.secondflex{
+    border:2px solid;
+    border-color: rgb(0, 0, 0);
+    height:510px;
+    width:320px;
+    position: relative;
+    top:30px;
+    border-radius: 40px;
+    background-color: white;
+}
+.pmg3{
+    position: relative;
+    left:80px;
+    border: 2px solid;
+}
+.pmg2{
+    position: relative;
+    left:10px;
+    border: 2px solid;
+}
+.pmg1{
+    position: relative;
+    left:9px;
+    border: 2px solid;
+}
+.pt{
+    text-align: center;
+    font-size: 30px;
+}
+.thirdflex{
+    border:2px solid;
+    border-color: rgb(0, 0, 0);
+    position: relative;
+    top:30px;
+    width:620px;
+    border-radius: 40px;
+    background-color: white;
+}
+.mg3{
+    position: relative;
+    left:130px;
+    border: 2px solid;
+}
+.mg2{
+    position: relative;
+    right:-5px;
+    width:300px;
+    border: 2px solid;
+}
+.mg1{
+    position: relative;
+    left:6px;
+    width:300px;
+    border: 2px solid;
+}
+.gm{
+    text-align: center;
+    font-size: 30px;
+}

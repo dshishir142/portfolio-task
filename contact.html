@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="stylesheet" href="forNavi.css">
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+
+    <div class="nav">
+        <nav>
+            <ol>
+                <label class="logo">Shishir</label>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+                <li>
+                    <a href="thirdLink.html">Timeline</a>
+                </li>
+                <li>
+                    <a href="fourthLink.html">Hobbies</a>
+                </li>
+                <li>
+                    <a href="fifthLink.html">Skills</a>
+                </li>
+            </ol>
+        </nav>
+        </div>
+
+    <div style="text-align:center;">
+        <h1>Please leave some information</h1>
+        <div class="inside">
+            <h3 class="sideline">Name:</h3>
+            <input class="input" input type="text" placeholder="Enter your name...">
+            <br>
+            <h3 class="sideline">Email:</h3>
+            <input class="input" input type="email" placeholder="Enter your Email...">
+            <br>
+            <h3 class="sideline">Phone number:</h3>
+            <input class="input" input type="number" placeholder="Enter your phone number...">
+            <br>
+            <h3 class="sideline">Address:</h3>
+            <input class="input" input type="text" placeholder="Enter your address...">
+            <br>
+            <h3 class="sideline">Reason to contact:</h3>
+            <input class="input" input type="text" placeholder="Leave a message...">
+
+            <br>
+            <button class="button" onclick="myFunction()">
+                <strong>
+                    <div>Submit</div>
+                </strong>
+            </button>
+            <p id="demo"></p>
+        </div>
+        </div>
+        <hr>
+    <h1 style="text-align: center;">
+        My contact
+    </h1>
+
+    <div class="flexbx">
+        <div class="transiti">
+            <h3 class="heading">Name</h3>
+            <p class="heading1">Shishir Dahal</p>
+        </div>
+
+        <div class="transiti">
+            <h3 class="heading">Phone number</h3>
+            <p class="heading1">9813876767</p>
+        </div>
+
+        <div class="transiti">
+            <h3 class="heading">Email</h3>
+            <p class="heading1">dshishir142@gmail.com</p>
+        </div>
+
+        <div class="transiti">
+            <h3 class="heading">address</h3>
+            <P class="heading1">Kathmandu</P>  
+        </div>
+    </div>
+    <hr>
+
+    <script >
+        function myFunction() {
+        document.getElementById("demo").innerHTML = "There was some error while submitting!!";
+        }
+    </script>
+
+</body>
+</html>

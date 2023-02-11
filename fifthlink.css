@@ -1,0 +1,65 @@
+.head{
+    font-size:130%;
+    text-align: center;
+}
+.py{
+    height:200px;
+    border-radius: 20px;
+    position:relative;
+    left:10px;
+}
+.firstflex{
+    border:2px solid;
+    border-color: rgb(0, 0, 0);
+    width:350px;
+    height:435px;
+    position: relative;
+    top:30px;
+    border-radius: 40px;
+    background-color: white;
+}
+h2{
+    text-align: center;
+    font-size: 35px;
+}
+.list{
+    font-size: 20px;
+    position: relative;
+    left:20px;
+}
+.jv{
+    height:200px;
+    border-radius: 20px;
+    position:relative;
+    left:10px;
+}
+.secondflex{
+    border:2px solid;
+    border-color: rgb(0, 0, 0);
+    width:375px;
+    height:435px;
+    position: relative;
+    top:30px;
+    border-radius: 40px;
+    background-color: white;
+}
+.wb{
+    height:200px;
+    border-radius: 20px;
+    position:relative;
+    left:10px;
+}
+.thirdflex{
+    border:2px solid;
+    border-color: rgb(0, 0, 0);
+    width:375px;
+    height:435px;
+    position: relative;
+    top:30px;
+    border-radius: 40px;
+    background-color: white;
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
